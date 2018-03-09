@@ -1,6 +1,10 @@
 # calculator
 
-> A Vue.js project
+* 框架 vue
+* 路由 vuex
+* 打包 webpack
+* UI element-ui
+* 模块较多,所以采用异步加载的方式
 
 ## Build Setup
 
@@ -18,4 +22,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
