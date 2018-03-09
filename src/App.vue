@@ -36,6 +36,7 @@ export default {
     display: flex;
     >.page-wrapper{
       width:100%;
+      padding:16px;
     }
   }
 </style>
