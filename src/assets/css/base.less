@@ -1,0 +1,75 @@
+.clearfix{
+    &:before{
+        display: table;
+        content: " ";
+    }
+    &:after{
+        display: table;
+        content: " ";
+        clear: both;  
+    }
+}
+html{
+    font-size:10px;
+  }
+  html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+  }
+  div{
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+  }
+  #app{
+      height: 100%;
+      overflow: auto;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-size: 1.4rem;
+  }
+  .page{
+    padding:0 1.5em;
+  }
+  .alert{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 1;
+    text-align: center;
+  }
+  /** icon */
+  .icon-box{
+    *{
+      vertical-align: middle;
+    }
+  }
+  .icon{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+  }
+  .icon-size(@size){
+    width:@size;
+    height:@size;
+  }
+  .icon-16{
+    .icon-size(16px)
+  }
+  .icon-24{
+    .icon-size(24px)
+  }
+  .icon-32{
+    .icon-size(32px)
+  }
+  .icon-80{
+    .icon-size(80px)
+  }
